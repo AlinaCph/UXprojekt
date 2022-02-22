@@ -123,6 +123,35 @@ p {
 
 
 
+.filter-button {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 15px 15px;
+    width: 170px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    }
+    
+    .filter-button:hover {
+        color: black;
+        border-color: #79ba00;
+    }
+
+    .ikoner {
+        width: 35px;
+        vertical-align: bottom;
+
+    
+    }
+
+
 .biologitabcontent {
     display: table;
     float: left;
