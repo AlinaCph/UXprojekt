@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studieuniverset</title>
+    <link rel="stylesheet" href="style.css">
+ <!-- linker til ikon bibliotek-->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+  
+ <!-- horisontal navigationsbar-->   
+
+<header class="topnav">
+    <img class="bib" src="logo.png" alt="koegebib" >  
+    <nav>
+        <ul>
+            <li><a href="#">Forside</a></li>
+            <li><a href="#">E-bøger og medier</a></li>
+            <li><a href="#">Anbefalinger</a></li>
+            <li><a href="#">Studieunivers</a></li>
+            <li><a href="#">Kalender</a></li>
+        </ul>
+    </nav>
+    <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    
+</header>
+
+<aside>
+    <nav class="tab">
+        <button class="tablinks" onclick="window.location.href='index.html'">Studieunivers</button>
+        <button class="tablinks" onclick="openButton(event, 'Fag')" id="defaultOpen">Fag</button>
+        <button class="tablinks" onclick="openButton(event, 'Hjælptilopgaver')">Hjaelp til opgaver</button>
+        <button class="tablinks" onclick="openButton(event, 'Biblioteksvagten')">Biblioteksvagten</button>
+        <button class="tablinks" onclick="openButton(event, 'Databaser')">Databaser</button>
+        <button class="tablinks" onclick="openButton(event, 'Litteraturlistautomaten')">Litteraturlistautomaten</button>
+
+    </nav>
+</aside>
+
+<section id="Studieunivers" class="tabcontent">
+    <h3>Velkommen til Studieuniverset</h3>
+    <br>
+    <img class="lovetolearn" src="forside.jpg" alt="love to learn" width="60%">
+
+    <p>Her kan du blandt andet får hjælp til at søge efter litteratur enten blandt fysiskebøger
+        eller på vores mange online databaser. </p>
+        
+    <p>
+        Her finder du også hjælp og guides til afleveringer og større opgaver. Går du i 6. - 10. 
+        klasse og har brug for lektiehjælp, vil vi anbefale lektier-online.dk.</p>
+</section>
+
+<section id="Fag" class="biologitabcontent">
+    
+    <h3 class="biologioverskrift">Biologi</h3>
+    
+    
+    
+    <div class="column">
+        
+    <img class="biologibilleder" src="./img/fotosyntese.jpg" alt="fotosyntese">
+    <h4>Fotosyntese</h4>
+    <p> Fotosyntese er en række kompliceret biokemiske processer, 
+        der sætter planter, alger og cyanobakterier i stand til ved hjælp 
+        af solenergi at omdanne atmosfærens kuldioxid (carbondioxid) 
+        til organiske forbindelser og ilt.
+    </p>
+    </div>
+   
+    <div class="column">
+    <img class="biologibilleder" src="./img/epidemioginfektioner.jpg" alt="epidemioginfektioner">
+    
+    <h4>Epidemi og infektioner</h4>
+    <p>
+        I vores del af verden er vi ikke særlig vant til at mennesker dør 
+        af infektioner. Vacciner, godt uddannenede læger og god 
+        hygiejne har så godt som udryddet mange af de sygdomme, 
+        som folk med god grund frygtede i gamle dage. Mange steder 
+        i verden er man ikke så heldige og må leve i frygt for at blive 
+        smittet med dødelige virussygdomme, så som ebola. 
+    </p>
+    </div>
+   
+    
+    <div class="column">
+    <img class="biologibilleder" src="./img/epidemioginfektioner.jpg" alt="molekylærbiologi">
+    
+    <h4>Molekylærbiologi</h4>
+    <p>Molekylærbiologi beskæftiger sig med livets molekyler,
+        som er biologiens allermindste byggesten. Disse molekyler 
+        er bl.a. proteiner, nukleinsyrer og kulhydrater.
+    </p>
+    </div>
+
+    <div class="column">
+    <img class="biologibilleder" src="./img/kropsidealer.jpg" alt="kropsidealer">
+    <h4>Kropsidealer</h4>
+
+    <p>
+        Skønhed er et foranderligt koncept, og gennem tiden har eksempelvis
+        forestillingen om den perfekte krop ændret sig markant. I vores tid er
+        der et stort fokus på den slanke krop, der både ses som et skønhedsideal 
+       og som et udtryk for selvkontrol og karakterstyrke.
+    </p>
+    </div>
+ 
+</section>
+
+<section id="Hjælptilopgaver" class="tabcontent">
+  <h3>Skal du skrive SRP, SSO eller en anden større opgave?</h3>
+    <br>
+    <p>Google versus netmedierne: Hvordan finder du de helt rigtige materialer og kilder til din
+        opgave? Du bruger selvfølgelig biblioteket og vores mange databaser..</p>
+
+    <h4>Før du starter</h4>
+    <p>Inden du går i gang med at søge anden litteratur, vil det være en god idé at anskaffe/
+        låne bøgerne Den gode opgave og Find viden. De er næsten uundværlige, mens du
+        befinder dig i opgaveboblen.
+        <br>
+        Gå også ind på skrivopgave.dk, hvor der er masser af vejledning
+
+    </p>
+    <h4>Søg materialer - trin for trin</h4>
+    <p>Søg og reservér i vores biblioteksbase. Her finder du alle de materialer, vi har i Køge
+        Bibliotekerne.
+        Er der noget, du ikke kan finde, så spørg os endelig.
+        <br>
+        <br>
+        Nogen gange er der mange elever, der skal skrive om det samme emne, og så kan alle vores materialer om det
+        pågældende emne være udlånt. Så prøver vi gerne at bestille til dig fra andre biblioteker - husk at komme i god
+        tid. Du kan også selv søge i bibliotek.dk - her kan du bestille fra andre biblioteker i Danmark og få
+        materialerne
+        leveret på dit lokale bibliotek.
+        <br>
+        <br>
+        Tjek om der findes et Faktalink om dit emne. Faktalink er artikler om alverdens emner. Og der er altid gode
+        kildehenvisninger til videre søgning om dit emne.
+        <br>
+        <br>
+        Du kan selv søge artikler i bibliotek.dk og få dem sendt direkte til din mail-boks via Digital Artikleservice.
+    </p>
+
+    <h4>Brug netmedierne</h4>
+    <p>Biblioteket har adgang til mange databaser, hvor du kan finde kilder og artikler af høj kvalitet - og ikke
+        nødvendigvis
+        noget, du kan finde på Google. Prøv f.eks. den tværfaglige base Global Issues in Context, der er en slags
+        engelsksproget Faktalink. Her finder du artikler om cirka 280 forskellige emner fordelt på 8 hovedområder.
+        Indholdet
+        kommer fra mere end 400 fuldtekst nyhedskilder, magasiner og akademiske tidsskrifter.
+        <br>
+        <br>
+        Eller Literature Resource Center, der er en omfattende tværfaglig litteraturvidenskabelig database med
+        information om
+        forfattere og deres værker inden for alle genrer og perioder. Hvis du skal bruge naturvidenskabelig information
+        - så gå
+        i Science in Context.
+        <br>
+        <br>
+        Skal du bruge billeder til din opgave, så husk Britannica image quest. Her ligger mange tusinde billeder, der
+        frit kan
+        bruges til ikke-kommercielle formål.
+        <br>
+        <br>
+        Du kan se alle vores databaser på denne liste.
+        Du kan logge ind på de fleste af dem hjemmefra med dit cpr-nummer og pinkoden, du låner med.
+        <br>
+        <br>
+        Har du brug for yderligere hjælp, er du naturligvis altid velkommen til at henvende dig hos os i vores
+        åbningstid.
+        Panikker du uden for åbningstid, så er der hjælp at hente hos Biblioteksvagten.
+        <br>
+        <br>
+        God fornøjelse med opgaveskrivningen!</p></p> 
+
+        <aside class="text-box">
+            <div class="link">
+                <h4>Relevante links og medier</h4>
+                <p><a href="https://skrivopgave.kk.dk" >  skrivopgave.dk </a></p> 
+                <p><a href="https://bibliotek.dk"> Bibliotek.dk </a></p> 
+                <p><a href="https://faktalink.dk">  faktalink.dk </a></p> 
+                <p><a href="">  Global Issues In Context </a></p> 
+                <p><a href="">  Literature Resource Center </a></p> 
+                <p><a href="">  Science in Context </a></p> 
+                <p><a href="https://www.biblioteksvagten.dk">  Biblioteksvagten.dk </a></p> 
+        </div>
+
+        </aside>
+</section>
+
+<section id="Biblioteksvagten" class="tabcontent">
+  <a href="https://www.biblioteksvagten.dk/" class="fag-button">Spørg Biblioteksvagten</a>
+  
+</section>
+
+<section id="Databaser" class="tabcontent">
+
+</section>
+
+<section id="Litteraturlistautomaten" class="tabcontent">
+    <h3>Få hjælp til at lave en flot litteraturliste med litteraturlisteautomaten</h3>
+    <p>Med Litteraturlisteautomaten.dk kan du samle litteraturen til din opgave og 
+        få hjælp til at stille den op efter APA7 standarden, som er det format, de 
+        fleste uddannelsesinsitutioner bruger. Under kilder kan du vælge mellem 
+        Tekst & Node, Lyd, Levende Billeder og Visuelt (fx kunstværker). 
+        
+        Litteraturlisteautomaten gør det nemt for dig at lave en litteraturliste takket være:
+        
+        - Et brugervenligt design
+        - Letforståelige hjælpetekster til alle kildetyper
+        - Brug af referencestandarden APA 7 (nyeste udgave fra 2019)
+        - Et stort udvalg af kildetyper
+        - Mulighed for at gemme referencer, som ikke er komplet udfyldt
+        - Automatisk alfabetisering af litteraturlisten
+        - Mulighed for at kopiere litteraturlisten korrekt formateret over i opgaven.
+        
+        Besøg Litteraturlisteautomaten.dk
+        
+        </p>
+</section>
+
+<footer>
+    <div class="footer">
+
+    
+     <div class="bibtilbyder">
+
+        <h1>Biblioteket tilbyder</h1>
+
+        <p> Aflevere efter lukketid <br>
+            Besøge Lokalhistorisk Arkiv <br>    
+            Booke et mødelokale <br>
+            Forny pas og kørekort <br>
+            Købe fiskekort <br>
+            Låse dig ind morgen og aften <br>
+        </p>
+     </div>
+
+     <div class="praktiskinformation">
+        <h1> Praktisk information </h1> 
+
+         <p>Åbningstider <br>
+            Bliv låner <br>
+            Bødetakster <br>
+            Nyhedsbrev <br>
+            Virksomhed <br>
+            Ledige stillinger<br>
+            Forny dine lån <br>
+            Betal bøder <br>
+         </p>
+     </div> 
+     
+
+     <div class="kontakt">
+         <h1> Kontakt</h1>
+         <p>Køge Bibliotekerne <br>
+            Kirkestræde 18 <br>
+            4600 Køge <br>
+         </p>
+         
+         <p>
+            Telefon: 56 67 28 00
+         </p>
+
+         <p>
+            Mail: koegebib@koege.dk
+         </p>
+         
+         <p>
+            EAN: 579 800 776 5729
+         </p>
+
+     </div>
+
+     <div class="someikoner">
+     <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/koegebib/" class="fa fa-facebook"></a> <br>
+    <a href="https://www.instagram.com/explore/locations/19596384/denmark/kge/kge-bibliotekerne/" class="fa fa-instagram"></a>
+    </div>     
+    </div>
+    
+</footer>   
+<script src="main.js"></script>
+</body>
+
+</html>
